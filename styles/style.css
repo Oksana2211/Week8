@@ -1,0 +1,34 @@
+.root {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.logo__img {
+  width: 70%;
+}
+.content {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 5%;
+}
+.content__card1 {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+.content__card2 {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+.content__card3 {
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
+}
+.content__card4 {
+  grid-row: 1 / 2;
+  grid-column: 4 / 5;
+}
+.footer__img {
+  width: 50%;
+}
